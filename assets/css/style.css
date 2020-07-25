@@ -204,5 +204,8 @@ p {
       width: 20px; }
     .content-wrapper .elevator.open .content .right {
       width: 20px; }
+.booth {width: 400px; height: auto; margin: 20px auto; padding: 10px; background-color: #f1f1f1; border: 1px solid #e5e5e5;}
+.booth a {display: block; padding: 10px; text-align: center; background-color: #428bca; margin: 10px 0; font-size: 15px; color: #fff; text-decoration: none;}
 
-/*# sourceMappingURL=style.css.map */
+
+

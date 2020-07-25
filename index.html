@@ -10,6 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<video id="cam_input" height="200" width="200"></video>
+    <canvas id="canvas_output"></canvas>
+    <h1>hdvxnb</h1>
 	<h1>ĐỌC SỐ THANG MÁY</h1>
 	<div class="container">
 		<div class="content-wrapper">
@@ -122,16 +125,30 @@
 			<div class="glass"></div>
 		</div>
 		<div class="floor">
-			<span>Nhập tầng bạn đang đứng</span>
+			<span>Tầng bạn đang đứng</span>
 			<input type="text" readonly class="floor-stand" id="floor-stand" value="1" />
 			<button id="start-speech-current-floor">
 				<img src="assets/images/microphone.svg">
 			</button>
 			<img src="assets/images/loader.svg" id="speech-floor-loader" class="speech-loader"/>
 		</div>
+		<!-- <div class="booth">
+            <video id="video" width="400" height="300"></video>
+            <a href="#" id="capture" class="booth-capture-button">Chụp hình</a>
+            <canvas id="canvas" width="400" height="300"></canvas>
+        </div> -->
+        <!-- div.booth -->
+       
 
+		
+
+		 
+	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/main1.js"></script>
+	<script src="assets/js/until.js"></script>
+	<script src="assets/js/opencv.js"></script>
 </body>
 </html>
